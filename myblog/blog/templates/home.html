@@ -1,0 +1,18 @@
+<!-- prettier-ignore -->
+
+{% extends 'base.html' %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<div class="container">
+	<h1>Welcome to my blog!</h1>
+	<p>
+		This is the home page of my blog, where you will find the latest posts
+		As well as lots of other information.
+	</p>
+	<p>
+		Browse our categories, read interesting articles and join the
+		discussions!
+	</p>
+	<a href="{% url 'post_list' %}" class="btn">See all posts</a>
+</div>
+{% endblock %}
