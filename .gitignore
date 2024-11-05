@@ -1,0 +1,46 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.db
+
+# Zmienne środowiskowe
+.env
+*.env
+
+# Specyficzne dla Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+/media
+/staticfiles
+/static
+*.local
+
+# Środowisko wirtualne
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.venv.bak/
+
+# Ustawienia VSCode
+.vscode/
+
+# Ustawienia PyCharm
+.idea/
+
+# System Mac OS
+.DS_Store
+
+# System Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
